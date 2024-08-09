@@ -1,0 +1,24 @@
+## base
+conda install pandas
+conda install conda-forge::numpy
+conda install conda-forge::scikit-learn
+conda install conda-forge::scipy
+
+## model
+conda install pytorch::pytorch
+conda install conda-forge::sdv
+conda install tensorflow
+conda install conda-forge::xgboost
+
+conda install conda-forge::lightgbm
+conda install conda-forge::catboost
+
+## visualization
+
+conda install conda-forge::seaborn
+conda install conda-forge::matplotlib
+
+## utils
+conda install -c conda-forge ipykernel
+
+conda install conda-forge::tqdm

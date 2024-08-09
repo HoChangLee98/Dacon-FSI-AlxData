@@ -1,0 +1,22 @@
+n_sample: 100
+random_state: 42
+
+model_params:
+  model_name: ctgan
+  column_sdtypes:
+    Account_initial_balance: numerical
+    Account_balance: numerical
+    Customer_identification_number: categorical
+    Customer_personal_identifier: categorical
+    Account_account_number: categorical
+    IP_Address: ipv4_address  
+    Location: categorical
+    Recipient_Account_Number: categorical
+    Fraud_Type: categorical
+    # 'Time_difference': numerical
+    Customer_Birthyear: numerical
+
+  n_cls_per_gen: 1000
+  version: 0
+
+epochs: 100
